@@ -3,12 +3,10 @@ You can access instructions to install CARLA in the PDF document attached below,
 Please note that the CARLA binaries used here are a modified version of the original CARLA with additional maps included, so please use these binaries when working on the assignments.
 
 Linux (Ubuntu 16.04 or later)
-Download both the CARLA Setup Gude (Ubuntu).pdf and CarlaUE4Ubuntu.tar.gz files.
+Download both the **CARLA Setup Guide (Ubuntu).pdf** and **CarlaUE4Ubuntu.tar.gz** files on this repository
 
 Read the PDF guide to setup and test the CARLA binaries and example clients for Linux.
 
-CARLA Setup Guide (Ubuntu).pdf
-CarlaUE4Ubuntu.tar.gz
 Windows 7 (64-bit) or later
 Download both the CARLA Setup Gude (Windows x64).pdf and CarlaUE4Windows.zip files.
 
