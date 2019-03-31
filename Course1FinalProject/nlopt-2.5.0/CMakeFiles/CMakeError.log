@@ -1,0 +1,37 @@
+Performing C SOURCE FILE Test HAVE_THREAD_LOCAL_STORAGE failed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7309f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7309f.dir/build.make CMakeFiles/cmTC_7309f.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7309f.dir/src.c.o
+/usr/bin/cc   -DHAVE_THREAD_LOCAL_STORAGE   -o CMakeFiles/cmTC_7309f.dir/src.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/src.c
+/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/src.c:2:5: warning: return type defaults to ‘int’ [-Wimplicit-int]
+     __declspec(thread) int tls;
+     ^~~~~~~~~~
+/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/src.c: In function ‘__declspec’:
+/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/src.c:4:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+     int main(void) {
+                    ^
+/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/src.c:2:5: warning: type of ‘thread’ defaults to ‘int’ [-Wimplicit-int]
+     __declspec(thread) int tls;
+     ^~~~~~~~~~
+/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/src.c:2:28: error: declaration for parameter ‘tls’ but no such parameter
+     __declspec(thread) int tls;
+                            ^~~
+/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/src.c:6:5: error: expected ‘{’ at end of input
+     }
+     ^
+CMakeFiles/cmTC_7309f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7309f.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7309f.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7309f/fast' failed
+make: *** [cmTC_7309f/fast] Error 2
+
+Source file was:
+
+    __declspec(thread) int tls;
+
+    int main(void) {
+        return 0;
+    }

@@ -1,0 +1,1078 @@
+The system is: Linux - 4.15.0-46-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64005/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64005.dir/build.make CMakeFiles/cmTC_64005.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64005.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_64005.dir/testCCompiler.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_64005
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64005.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_64005.dir/testCCompiler.c.o  -o cmTC_64005 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abea9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abea9.dir/build.make CMakeFiles/cmTC_abea9.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abea9.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_abea9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_abea9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abea9.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_abea9.dir/CMakeCCompilerABI.c.o  -o cmTC_abea9 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-27ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_abea9' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqVz8Ge.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_abea9 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_abea9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_abea9' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_abea9/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_abea9.dir/build.make CMakeFiles/cmTC_abea9.dir/build]
+  ignore line: [make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_abea9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_abea9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_abea9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abea9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_abea9.dir/CMakeCCompilerABI.c.o  -o cmTC_abea9 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-27ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_abea9' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqVz8Ge.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_abea9 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_abea9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqVz8Ge.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_abea9] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_abea9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95685/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95685.dir/build.make CMakeFiles/cmTC_95685.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95685.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_95685.dir/feature_tests.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/feature_tests.c
+Linking C executable cmTC_95685
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95685.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_95685.dir/feature_tests.c.o  -o cmTC_95685 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e207/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9e207.dir/build.make CMakeFiles/cmTC_9e207.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e207.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_9e207.dir/feature_tests.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9e207
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e207.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9e207.dir/feature_tests.c.o  -o cmTC_9e207 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_09826/fast"
+/usr/bin/make -f CMakeFiles/cmTC_09826.dir/build.make CMakeFiles/cmTC_09826.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09826.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_09826.dir/feature_tests.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/feature_tests.c
+Linking C executable cmTC_09826
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09826.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_09826.dir/feature_tests.c.o  -o cmTC_09826 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_395ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_395ae.dir/build.make CMakeFiles/cmTC_395ae.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_395ae.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_395ae.dir/testCXXCompiler.cxx.o -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_395ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_395ae.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_395ae.dir/testCXXCompiler.cxx.o  -o cmTC_395ae 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12a41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12a41.dir/build.make CMakeFiles/cmTC_12a41.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_12a41.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_12a41.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_12a41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12a41.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_12a41.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_12a41 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-27ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_12a41' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cchNrRwB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_12a41 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_12a41.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_12a41' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_12a41/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_12a41.dir/build.make CMakeFiles/cmTC_12a41.dir/build]
+  ignore line: [make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_12a41.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_12a41.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_12a41]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12a41.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_12a41.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_12a41 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.3.0-27ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_12a41' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cchNrRwB.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_12a41 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_12a41.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cchNrRwB.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_12a41] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_12a41.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8f36/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8f36.dir/build.make CMakeFiles/cmTC_b8f36.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b8f36.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_b8f36.dir/feature_tests.cxx.o -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b8f36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8f36.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b8f36.dir/feature_tests.cxx.o  -o cmTC_b8f36 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2232/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2232.dir/build.make CMakeFiles/cmTC_b2232.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2232.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_b2232.dir/feature_tests.cxx.o -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b2232
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2232.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b2232.dir/feature_tests.cxx.o  -o cmTC_b2232 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55a75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55a75.dir/build.make CMakeFiles/cmTC_55a75.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_55a75.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_55a75.dir/feature_tests.cxx.o -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_55a75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55a75.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_55a75.dir/feature_tests.cxx.o  -o cmTC_55a75 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb46b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb46b.dir/build.make CMakeFiles/cmTC_eb46b.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eb46b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_eb46b.dir/feature_tests.cxx.o -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_eb46b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb46b.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_eb46b.dir/feature_tests.cxx.o  -o cmTC_eb46b 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58bcc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58bcc.dir/build.make CMakeFiles/cmTC_58bcc.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58bcc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_58bcc.dir/CheckIncludeFile.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_58bcc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58bcc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_58bcc.dir/CheckIncludeFile.c.o  -o cmTC_58bcc 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file getopt.h exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9901d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9901d.dir/build.make CMakeFiles/cmTC_9901d.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9901d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9901d.dir/CheckIncludeFile.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9901d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9901d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9901d.dir/CheckIncludeFile.c.o  -o cmTC_9901d 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2e4c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2e4c.dir/build.make CMakeFiles/cmTC_f2e4c.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2e4c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f2e4c.dir/CheckIncludeFile.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f2e4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2e4c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f2e4c.dir/CheckIncludeFile.c.o  -o cmTC_f2e4c 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bea3d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bea3d.dir/build.make CMakeFiles/cmTC_bea3d.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bea3d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bea3d.dir/CheckIncludeFile.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bea3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bea3d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bea3d.dir/CheckIncludeFile.c.o  -o cmTC_bea3d 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f008c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f008c.dir/build.make CMakeFiles/cmTC_f008c.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f008c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f008c.dir/CheckIncludeFile.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f008c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f008c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f008c.dir/CheckIncludeFile.c.o  -o cmTC_f008c 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61da2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61da2.dir/build.make CMakeFiles/cmTC_61da2.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61da2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_61da2.dir/CheckIncludeFile.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_61da2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61da2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_61da2.dir/CheckIncludeFile.c.o  -o cmTC_61da2 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bec2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bec2f.dir/build.make CMakeFiles/cmTC_bec2f.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bec2f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bec2f.dir/CheckIncludeFile.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bec2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bec2f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bec2f.dir/CheckIncludeFile.c.o  -o cmTC_bec2f 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f511b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f511b.dir/build.make CMakeFiles/cmTC_f511b.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f511b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f511b.dir/CheckIncludeFile.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f511b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f511b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f511b.dir/CheckIncludeFile.c.o  -o cmTC_f511b 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43fa3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43fa3.dir/build.make CMakeFiles/cmTC_43fa3.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43fa3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_43fa3.dir/CheckIncludeFile.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_43fa3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43fa3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_43fa3.dir/CheckIncludeFile.c.o  -o cmTC_43fa3 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63175/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63175.dir/build.make CMakeFiles/cmTC_63175.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63175.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_63175.dir/CheckIncludeFile.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_63175
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63175.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_63175.dir/CheckIncludeFile.c.o  -o cmTC_63175 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20a3b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20a3b.dir/build.make CMakeFiles/cmTC_20a3b.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20a3b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_20a3b.dir/CheckIncludeFile.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_20a3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20a3b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_20a3b.dir/CheckIncludeFile.c.o  -o cmTC_20a3b 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3ae1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3ae1.dir/build.make CMakeFiles/cmTC_f3ae1.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3ae1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f3ae1.dir/CheckIncludeFile.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f3ae1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3ae1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f3ae1.dir/CheckIncludeFile.c.o  -o cmTC_f3ae1 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd881/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd881.dir/build.make CMakeFiles/cmTC_fd881.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd881.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fd881.dir/CheckIncludeFile.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fd881
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd881.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fd881.dir/CheckIncludeFile.c.o  -o cmTC_fd881 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getpid exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be36d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be36d.dir/build.make CMakeFiles/cmTC_be36d.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be36d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpid   -o CMakeFiles/cmTC_be36d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_be36d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be36d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getpid    -rdynamic CMakeFiles/cmTC_be36d.dir/CheckFunctionExists.c.o  -o cmTC_be36d 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function syscall exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51276/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51276.dir/build.make CMakeFiles/cmTC_51276.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51276.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=syscall   -o CMakeFiles/cmTC_51276.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_51276
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51276.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=syscall    -rdynamic CMakeFiles/cmTC_51276.dir/CheckFunctionExists.c.o  -o cmTC_51276 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function isinf exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e035/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e035.dir/build.make CMakeFiles/cmTC_5e035.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e035.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=isinf   -o CMakeFiles/cmTC_5e035.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘isinf’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_5e035
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e035.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=isinf    -rdynamic CMakeFiles/cmTC_5e035.dir/CheckFunctionExists.c.o  -o cmTC_5e035 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function isnan exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7043/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7043.dir/build.make CMakeFiles/cmTC_e7043.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7043.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=isnan   -o CMakeFiles/cmTC_e7043.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘isnan’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_e7043
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7043.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=isnan    -rdynamic CMakeFiles/cmTC_e7043.dir/CheckFunctionExists.c.o  -o cmTC_e7043 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_220db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_220db.dir/build.make CMakeFiles/cmTC_220db.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_220db.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTC_220db.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_220db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_220db.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gettimeofday    -rdynamic CMakeFiles/cmTC_220db.dir/CheckFunctionExists.c.o  -o cmTC_220db 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function qsort_r exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79dde/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79dde.dir/build.make CMakeFiles/cmTC_79dde.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79dde.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=qsort_r   -o CMakeFiles/cmTC_79dde.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_79dde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79dde.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=qsort_r    -rdynamic CMakeFiles/cmTC_79dde.dir/CheckFunctionExists.c.o  -o cmTC_79dde 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function time exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc7d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc7d9.dir/build.make CMakeFiles/cmTC_dc7d9.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc7d9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=time   -o CMakeFiles/cmTC_dc7d9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dc7d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc7d9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=time    -rdynamic CMakeFiles/cmTC_dc7d9.dir/CheckFunctionExists.c.o  -o cmTC_dc7d9 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76f95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76f95.dir/build.make CMakeFiles/cmTC_76f95.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76f95.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=copysign   -o CMakeFiles/cmTC_76f95.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘copysign’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_76f95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76f95.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=copysign    -rdynamic CMakeFiles/cmTC_76f95.dir/CheckFunctionExists.c.o  -o cmTC_76f95 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47453/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47453.dir/build.make CMakeFiles/cmTC_47453.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47453.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_47453.dir/CheckIncludeFile.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_47453
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47453.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_47453.dir/CheckIncludeFile.c.o  -o cmTC_47453 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb899/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb899.dir/build.make CMakeFiles/cmTC_fb899.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb899.dir/SIZEOF_UINT32_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fb899.dir/SIZEOF_UINT32_T.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CheckTypeSize/SIZEOF_UINT32_T.c
+Linking C executable cmTC_fb899
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb899.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fb899.dir/SIZEOF_UINT32_T.c.o  -o cmTC_fb899 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4785/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4785.dir/build.make CMakeFiles/cmTC_d4785.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4785.dir/SIZEOF_UNSIGNED_INT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d4785.dir/SIZEOF_UNSIGNED_INT.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTC_d4785
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4785.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d4785.dir/SIZEOF_UNSIGNED_INT.c.o  -o cmTC_d4785 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6e9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6e9c.dir/build.make CMakeFiles/cmTC_e6e9c.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6e9c.dir/SIZEOF_UNSIGNED_LONG.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e6e9c.dir/SIZEOF_UNSIGNED_LONG.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_e6e9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6e9c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e6e9c.dir/SIZEOF_UNSIGNED_LONG.c.o  -o cmTC_e6e9c 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sqrt exists in the m passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37882/fast"
+/usr/bin/make -f CMakeFiles/cmTC_37882.dir/build.make CMakeFiles/cmTC_37882.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37882.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sqrt   -o CMakeFiles/cmTC_37882.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_37882
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37882.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sqrt    -rdynamic CMakeFiles/cmTC_37882.dir/CheckFunctionExists.c.o  -o cmTC_37882 -lm 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_THREAD_LOCAL_STORAGE succeeded with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd4b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd4b6.dir/build.make CMakeFiles/cmTC_dd4b6.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd4b6.dir/src.c.o
+/usr/bin/cc   -DHAVE_THREAD_LOCAL_STORAGE   -o CMakeFiles/cmTC_dd4b6.dir/src.c.o   -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dd4b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd4b6.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_THREAD_LOCAL_STORAGE    -rdynamic CMakeFiles/cmTC_dd4b6.dir/src.c.o  -o cmTC_dd4b6 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    __thread int tls;
+
+    int main(void) {
+        return 0;
+    }
+Determining if the __cplusplus exist passed with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39d7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39d7b.dir/build.make CMakeFiles/cmTC_39d7b.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39d7b.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_39d7b.dir/CheckSymbolExists.cxx.o -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_39d7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39d7b.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_39d7b.dir/CheckSymbolExists.cxx.o  -o cmTC_39d7b 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+File /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <ciso646>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __cplusplus
+  return ((int*)(&__cplusplus))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test SUPPORTS_STDCXX11 succeeded with the following output:
+Change Dir: /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cdd3d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cdd3d.dir/build.make CMakeFiles/cmTC_cdd3d.dir/build
+make[1]: Entering directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cdd3d.dir/src.cxx.o
+/usr/bin/c++    -DSUPPORTS_STDCXX11   -std=c++11 -o CMakeFiles/cmTC_cdd3d.dir/src.cxx.o -c /home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cdd3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdd3d.dir/link.txt --verbose=1
+/usr/bin/c++   -DSUPPORTS_STDCXX11    -rdynamic CMakeFiles/cmTC_cdd3d.dir/src.cxx.o  -o cmTC_cdd3d 
+make[1]: Leaving directory '/home/munir/Documents/CarlaSimulator/PythonClient/Course1FinalProject/nlopt-2.5.0/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
